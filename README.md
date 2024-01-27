@@ -1,2 +1,2 @@
 # vscode-devcontainers
-### A personal collection of vscode devcontainers for various development tech stacks.
+### A personal collection of `vscode` *devcontainers* for various development tech stacks.
