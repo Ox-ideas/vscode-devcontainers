@@ -2,6 +2,9 @@
 
 A personal collection of `vscode` *devcontainers* for various tech stacks bundled with all the SDKs, Tools, and VSCode extensions you need.
 
+
+
+
 ### How to use - 
 
 Clone using the web URL with the following format:
@@ -9,13 +12,16 @@ Clone using the web URL with the following format:
 git clone -b <branchname> --single-branch <remote-repo-url> <destination-folder>
 ```
 
+
 > [!NOTE]
 > You can choose the development container by changing the branch named after the target tech stack. *ie. dotnet5*
+
 
 Here's an example to spin up a devcontainer for .NET 5:
 ```
 git clone -b dotnet5 --single-branch https://github.com/Ox-ideas/vscode-devcontainers.git sample-net5-devcontainer
 ```
+
 
 **Available stacks -**
 - .NET 5
@@ -23,6 +29,8 @@ git clone -b dotnet5 --single-branch https://github.com/Ox-ideas/vscode-devconta
 - Next.js
 
 More to come! :melon: :ox:
+
+
 
 ### Removing git entirely
 
