@@ -1,6 +1,6 @@
 # :whale: vscode-devcontainers
 
-A personal collection of `vscode` *devcontainers* for various tech stacks bundled with all the SDKs, Tools, and VSCode extensions you need.
+A personal collection of `vscode` *devcontainers* for various tech stacks bundled with the minimal SDKs, Tools, Libraries and Extensions needed.
 
 
 
@@ -64,3 +64,6 @@ After the development container has completed the spin up process, open a termin
 
 > [!WARNING]
 > Make sure you are in the root folder and that the cloned project have similar tech stack as the container!
+
+
+Please give a :star2: if you found it useful, thanks! :sun_with_face:
