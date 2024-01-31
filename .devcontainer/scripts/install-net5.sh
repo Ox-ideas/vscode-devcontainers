@@ -5,4 +5,4 @@ wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
 # grant permission
 chmod +x ./dotnet-install.sh
 # install specific major version
-./dotnet-install.sh --channel 5.0
+./dotnet-install.sh --channel 5.0 && rm -rf ./dotnet-install.sh
