@@ -1,9 +1,6 @@
 # :whale: vscode-devcontainers
 
-A personal collection of `vscode` *devcontainers* for various tech stacks bundled with the minimal SDKs, Tools, Libraries and Extensions needed.
-
-
-
+## .Net 5
 
 ### How to use - 
 
