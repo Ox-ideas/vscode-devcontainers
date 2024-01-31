@@ -1,0 +1,53 @@
+# Set default behaviour to automatically normalize line endings.
+# Handle line endings automatically for files detected as text and leave all files detected as binary untouched.
+# Set the default behavior, in case people don't have core.autocrlf set.
+# Similar to setting core.autocrlf=true
+* text=auto
+
+# Force bash scripts to always use LF line endings so that if a repo is accessed
+# in Unix via a file share from Windows, the scripts will work.
+# *.sh text eol=lf
+# Force the following filetypes to have unix eols, so Windows does not break them
+*.* text eol=lf
+
+# Force batch scripts to always use CRLF line endings so that if a repo is accessed
+# in Windows via a file share from Linux, the scripts will work.
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# Windows forced line-endings
+#/.idea/* text eol=crlf
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.cs text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary
+*.ez binary
+*.bz2 binary
+*.swp binary
+*.cur binary
+*.wav binary
+*.webp binary
+*.woff2 binary
